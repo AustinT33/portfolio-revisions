@@ -69,6 +69,11 @@ li {
     cursor: pointer;
 }
 
+li:active {
+    color: black;
+    background-color: white;
+}
+
 .about {
     display: none;
     padding: 30px 30px 10px 20px;
