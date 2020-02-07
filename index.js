@@ -6,6 +6,9 @@ $('#about').click(function(e) {
 $('#projects').click(function(e) {
     e.preventDefault();
     $('section').toggle();
+    $('html,body').animate({
+        scrollTop: $('section').offset().top},
+        'slow');
 })
 
 $('#contact').click(function(e) {

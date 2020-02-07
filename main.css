@@ -69,6 +69,10 @@ li {
     cursor: pointer;
 }
 
+li:active {
+    box-shadow: 5px 3px #d0d0d0;
+}
+
 .about {
     display: none;
     padding: 30px 30px 10px 20px;
