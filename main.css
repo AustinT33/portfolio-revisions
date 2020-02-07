@@ -161,4 +161,8 @@ button {
     p {
         padding: 5px 25px;
     }
+
+    .spacedimg, .feedmeimg {
+        width: 300px;
+    }
 }
