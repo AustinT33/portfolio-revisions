@@ -6,7 +6,7 @@ $('#about').click(function(e) {
 $('#projects').click(function(e) {
     e.preventDefault();
     $('section').toggle();
-    $('html,body').animate({
+    $('html').animate({
         scrollTop: $('section').offset().top},
         'slow');
 })
