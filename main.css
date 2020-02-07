@@ -163,6 +163,10 @@ button {
     }
 
     .spacedimg, .feedmeimg {
+        width: 250px;
+    }
+
+    .spacedimg:hover, .feedmeimg:hover {
         width: 300px;
     }
 }
