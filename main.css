@@ -1,12 +1,103 @@
 html {
-    background-color: black;
-    color: white;
     font-family: sans-serif;
+    height: auto;
 }
 
-.bit-hello {
-    width: 200px;
-    float: left;
+header {
+    text-align: center;
+    font-size: 22px;
+    margin: 75px auto;
+    position: relative;
+    margin-bottom: 35%;
+}
+
+.computers {
+    width: 40%;
+    bottom: 0;
+    position: relative;
+    flex-grow: 1;
+}
+
+.bottom-img {
+   text-align: center;
+   position: absolute;
+   margin-top: -22.5%;
+}
+
+.about {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 0;
+    padding: 100px 300px;
+    color: white;
+    background-color: black;
+    height: 350px;
+}
+
+.project-section {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px 25px;
+    border: 0.5px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: -8%;
+    margin-bottom: -8%;
+    z-index: 1;
+    position: relative;
+}
+
+.project-list {
+    text-align: center;
+}
+
+.inner-section {
+    display: flex;
+}
+
+.project {
+    flex-direction: row;
+    width: 40%;
+    padding: 5px 15px;
+    border-left: 0.5px solid #dcdcdc;
+    border-right: 0.5px solid #dcdcdc;
+}
+
+.project-description {
+    padding: 30px 10px;
+}
+
+.live, .repo {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.sub-header {
+    font-size: 22px;
+}
+
+.bit-main {
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+.feedmeimg, .spacedimg, .quizimg {
+    width: 300px;
+    padding: 10px;
+    flex-shrink: 50px;
 }
 
 .linkedin {
@@ -19,7 +110,6 @@ html {
 
 .github {
     width: 36px;
-    margin-left: 10px;
 }
 
 .github, .mail, .linkedin {
@@ -33,140 +123,149 @@ footer > a {
 }
 
 .contact {
-    background-color: white;
+    background-color: black;
+    color: white;
     text-align: center;
-    position: fixed;
-    margin-left: 23%;
     bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 50%;
-    display: none;
-}
-
-h1 {
-    height: 50px;
-    margin-top: 75px;
-    text-align: center;
-}
-
-.header-container {
-    display: inline-flex;
-}
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 60px;
-}
-
-li {
-    flex-direction: row;
-    list-style-type: none;
-    border: 1px solid white;
-    padding: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-li:active {
-    color: black;
-    background-color: white;
-}
-
-.about {
-    display: none;
-    padding: 30px 30px 10px 20px;
-    margin: 0 auto;
-    line-height: 2em;
-    font-size: 20px;
-    overflow: auto;
+    height: 250px;
+    padding-top: 300px;
 }
 
 .bit-desk {
     width: 200px;
-    height: 200px;
-    float: left;
-    padding-right: 20px;
-    margin-top: -20px;
+    margin-top: -10%;
+    margin-bottom: 7%;
 }
 
-.infoLink {
-    color: #d0d0d0;
-    cursor: pointer;
-}
+@media screen and (max-width: 930px) {
 
-section {
-    display: none;
-    text-align: center;
-}
-
-p {
-    padding: 5px 25px;
-}
-
-button {
-    font-size: 20px;
-    padding: 5px;
-    color: black;
-    background-color: white;
-    cursor: pointer;
-}
-
-.project {
-    font-size: 18px;
-}
-
-.spacedimg, .feedmeimg {
-    width: 200px;
-    margin: 0 auto;
-    padding: 20px 5px;
-}
-
-.spacedimg:hover, .feedmeimg:hover {
-    width: 600px;
-}
-
-
-@media screen and (max-width: 500px) {
-    .bit-hello {
-        display: none;
-    }
-
-    h1 {
-        margin-bottom: 75px;
-    }
-
-    li {
+    .project {
         text-align: center;
-        margin-left: 20px;
+        margin: 0 auto;
+        width: auto;
+        border: none;
+        font-size: 20px;
     }
 
-    .bit-desk {
-        margin-right: 70px;
-        margin-left: 30px;
+    h3 {
+        font-size: 22px;
+    }
+
+    .inner-section {
+        flex-direction: column;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 500px;
+        margin: 0 auto;
+        border: 0.5px solid #dcdcdc;
+    }
+
+    .project-description, .project-tech {
+        padding: 10px 50px;
+        font-size: 19px;
+    }
+
+    .repo, .live {
+        margin: 25px auto;
+        font-size: 20px;
+        padding: 7px;
+    }
+
+    .computers {
+        bottom: 0;
     }
 
     .about {
-        font-size: 18px;
-        text-align: center;
-        padding: 3px 25px;
+        padding: 100px 200px;
     }
 
-    .contact {
-        width: 100%;
-        margin-left: -3%;
+    .bit-desk {
+        margin-top: -15%;
+        margin-bottom: 10%;
     }
 
-    p {
-        padding: 5px 25px;
+}
+
+@media screen and (max-width: 740px) {
+    .about {
+        padding: 100px 75px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .about {
+        padding: 80px 50px;
     }
 
-    .spacedimg, .feedmeimg {
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 300px;
+    }
+
+    li {
+        display: none;
+    }
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+}
+
+@media screen and (max-width: 440px) {
+
+    .about {
+        padding: 70px 25px;
+        height: 400px;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 150px;
+    }
+
+    .bit-desk {
+        margin-top: -40%;
+        margin-bottom: 25%;
+    }
+
+    .bit-main {
         width: 250px;
     }
 
-    .spacedimg:hover, .feedmeimg:hover {
-        width: 300px;
+    .project-section {
+        margin-top: -15%;
+    }
+
+    footer {
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    .about {
+        padding: 50px 20px;
+        font-size: 20px;
     }
 }

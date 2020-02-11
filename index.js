@@ -1,17 +1,8 @@
-$('#about').click(function(e) {
-    e.preventDefault();
-    $('.about').toggle();
-})
+function animateMenu(x) {
+    x.classList.toggle("change");
+  }
 
-$('#projects').click(function(e) {
+$('.container').on('click', (e) => {
     e.preventDefault();
-    $('section').toggle();
-    $('html').animate({
-        scrollTop: $('section').offset().top},
-        'slow');
-})
-
-$('#contact').click(function(e) {
-    e.preventDefault();
-    $('.contact').toggle();
+    $('li').toggle();
 })

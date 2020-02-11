@@ -3,75 +3,84 @@
 <head>
     <title>Austin The Web Dev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="shortcut icon" type="image/png" href="pictures/logo-icons/cat.png" alt="icon-by-freepik">
 </head>
     <body>
         <main role="main">
-            <header role="banner">
-                <div class="header-container">
-                    <img class="bit-hello" src="pictures/bitmoji/bit-hello.png"/>   
-                    <h1 class="intro">
-                        Hi! I'm Austin, the aspiring fullstack web developer.<br/>
-                        ---This portfolio is currently undergoing massive re-construction---
-                    </h1>      
+            <nav class="nav-bar" role="navigation">
+                <div class="container" onclick="animateMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
-            </header>
-            <nav role="navigation">
                 <ul>
                     <li id="about">About</li>
                     <li id="projects">Projects</li>
                     <li id="contact">Contact</li>
                 </ul>
             </nav>
+            <header>
+                <h1 class="intro">Full-Stack Developer</h1>
+                <p class="sub-header">I love to see applications come to life.</p>      
+                <img class="bit-main" src="pictures/bitmoji/bit-main.png">
+            </header>
+            <div class="bottom-img">
+                <img class="computers" src="pictures/app-pictures/computers.png">
+            </div>
                 <div class="about">
-                    <img class="bit-desk" src="pictures/bitmoji/bit-deskcat.png"/>
-                    I am an enthusiastic Full-Stack web developer. Through effective problem solving and critical thinking, I strive to effortlessly implement well-rounded code for the digital age.
-                    Outside of coding I enjoy hobbies such as dancing, drinking coffee, chilling with my cats, and creating 
-                    electronic music.
+                    <h2 class="second-header">My name is Austin.</h2>
+                    <p class="about-text">
+                        I am an enthusiastic Full-Stack web developer. Through effective problem solving and critical thinking, I strive to effortlessly implement well-rounded code for the digital age.
+                        Outside of coding I enjoy hobbies such as dancing, drinking coffee, chilling with my cats, and creating 
+                        electronic music.
+                    </p>
                 </div>
-            <section>
-                <h3>Feed Me</h3>
-                <div class="project">  
-                    <p class="project-description">Full Stack Project that allows you to input your zipcode and pick a random restaurant for you to eat at when you have trouble deciding.</p>
-                    <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | API | POSTGRESQL</p>
-                    <a class="links" href="https://feedme-randomizer.herokuapp.com/" target="_blank">
-                        <button class="live" type="button">Live Site</button></a>
-                    <a class="links" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
-                        <button class="repo" type="button">Github Repo</button>
-                    </a><br/>
-                    <img class="feedmeimg" src="pictures/app-pictures/fm2.png"/>
-                    <img class="feedmeimg" src="pictures/app-pictures/fm1.png"/>
+            <section class="project-section">
+                <h2 class="project-list">Projects</h2>
+                <div class="inner-section">
+                    <div class="project">  
+                        <h3>Feed Me</h3>
+                        <p class="project-description">Full Stack Project that allows you to input your zipcode and pick a random restaurant for you to eat at when you have trouble deciding.</p>
+                        <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | API | POSTGRESQL</p>
+                        <a class="links" href="https://feedme-randomizer.herokuapp.com/" target="_blank">
+                            <button class="live" type="button">Live Site</button></a>
+                        <a class="links" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
+                            <button class="repo" type="button">Github Repo</button>
+                        </a><br/>
+                        <img class="feedmeimg" src="pictures/app-pictures/fm1.png"/>
+                    </div>
+                    <div class="project">
+                        <h3>Spaced Repetition</h3>
+                        <p class="project-description">Full Stack project using LinkedLists to assist in learning a new language. This learning style that prompts incorrect guesses more often than correct.</p>
+                        <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | REST API | POSTGRESQL | CYPRESS</p>
+                        <a class="links"  href="https://mason-austin-learning.now.sh/" target="_blank">
+                            <button class="live" type="button">Live Site</button></a>
+                        <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
+                            <button class="repo" type="button">Github Repo</button>
+                        </a><br/>
+                        <img class="spacedimg" src="pictures/app-pictures/sr1.png"/>
+                    </div>
+                    <div class="project">
+                        <h3>Clash of Clans Quiz App</h3>
+                        <p class="project-description">Simple Quiz App with no CSS.</p>
+                        <p class="project-tech">Tech Stack: HTML | JAVASCRIPT | JQUERY</p>
+                        <a class="links" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
+                            <button class="live" type="button">Live Site</button></a>
+                        <a class="links" href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
+                            <button class="repo" type="button">GitHub Repo</button>
+                        </a><br/>
+                        <img class="quizimg" src="pictures/app-pictures/quizpic.png">
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3>Spaced Repetition</h3>
-                <div class="project">
-                    <p class="project-description">Full Stack project using LinkedLists to assist in learning a new language.</p>
-                    <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | REST API | POSTGRESQL | CYPRESS</p>
-                    <a class="links"  href="https://mason-austin-learning.now.sh/" target="_blank">
-                        <button class="live" type="button">Live Site</button></a>
-                    <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
-                        <button class="repo" type="button">Github Repo</button>
-                    </a><br/>
-                    <img class="spacedimg" src="pictures/app-pictures/sr1.png"/>
-                    <img class="spacedimg" src="pictures/app-pictures/sr2.png"/>
-                </div>
-            </section>
-            <section>
-                <h3>Clash of Clans Quiz App</h3>
-                <div class="project">
-                    <p class="project-description">Simple Quiz App with no CSS.</p>
-                    <p class="project-tech">Tech Stack: HTML | JAVASCRIPT | JQUERY</p>
-                    <a class="links" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
-                        <button class="live" type="button">Live Site</button></a>
-                    <a class="links" href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
-                        <button class="repo" type="button">GitHub Repo</button></a>
-                </div> 
             </section>
         </main>
         <footer class="contact" role="content-info">
+            <div class="closing">
+                <img class="bit-desk" src="pictures/bitmoji/bit-deskcat.png">
+            </div>
             <a href="https://github.com/austint33" target="_blank">
                 <img class="github" src="pictures/logo-icons/black-github.png">
             </a>
