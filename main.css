@@ -99,6 +99,7 @@ li {
     width: 300px;
     padding: 10px;
     flex-shrink: 50px;
+    text-decoration: none;
 }
 
 .linkedin {
@@ -296,7 +297,7 @@ footer > a {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 376px) {
 
     .about {
         padding: 50px 20px;

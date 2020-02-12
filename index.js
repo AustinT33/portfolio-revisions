@@ -75,3 +75,4 @@ function smoothScroll(eID) {
         leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
     }
 }
+
