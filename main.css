@@ -5,7 +5,16 @@ html {
 
 a {
     text-decoration: none;
+    display: inline-block;
+    background-color: black;
     color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 5px 3px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 3px 5px;
+
 }
 
 header {
