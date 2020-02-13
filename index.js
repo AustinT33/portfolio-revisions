@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
 });
 
-$("#about").click(function() {
+$("#about").click(function(x) {
     $('html, body').animate({
         scrollTop: $(".about").offset().top
     }, 2000);

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="shortcut icon" type="image/png" href="pictures/logo-icons/cat.png" alt="icon-by-freepik">
+    <link rel="shortcut icon" type="image/png" href="pictures/logo-icons/cat.png">
 </head>
     <body>
-        <main role="main">
-            <nav class="nav-bar" role="navigation">
+        <main>
+            <nav class="nav-bar">
                 <div class="container" onclick="animateMenu(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
@@ -25,15 +25,15 @@
             <header>
                 <h1 class="intro">Full-Stack Developer</h1>
                 <p class="sub-header">I love to see applications come to life.</p>      
-                <img class="bit-main" src="pictures/bitmoji/bit-main.png">
+                <img class="bit-main" src="pictures/bitmoji/bit-main.png" alt="bitmoji">
             </header>
             <div class="bottom-img">
-                <img class="computers" src="pictures/app-pictures/computers.png">
+                <img class="computers" src="pictures/app-pictures/computers.png" alt="media">
             </div>
                 <div class="about">
                     <h2 class="second-header">My name is Austin.</h2>
                     <p class="about-text">
-                        I am an enthusiastic Full-Stack web developer. Through effective problem solving and critical thinking, I strive to effortlessly implement well-rounded code for the digital age.
+                        I am an enthusiastic Full-Stack web developer. Through effective problem solving and critical thinking, I strive to effortlessly implement well-rounded code for the digital age. I love to work in a group setting and believe multiple heads are better than one!
                         Outside of coding I enjoy hobbies such as dancing, drinking coffee, chilling with my cats, and creating 
                         electronic music.
                     </p>
@@ -45,52 +45,78 @@
                         <h3>Feed Me</h3>
                         <p class="project-description">Full Stack Project that allows you to input your zipcode and pick a random restaurant for you to eat at when you have trouble deciding.</p>
                         <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | API | POSTGRESQL</p>
-                        <a class="links" href="https://feedme-randomizer.herokuapp.com/" target="_blank">
-                            <button class="live" type="button">Live Site</button></a>
-                        <a class="links" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
-                            <button class="repo" type="button">Github Repo</button>
-                        </a><br/>
-                        <img class="feedmeimg" src="pictures/app-pictures/fm1.png"/>
+                        <button class="live" type="button">
+                            <a class="links" href="https://feedme-randomizer.herokuapp.com/" target="_blank">
+                                Live Site
+                            </a>
+                        </button>
+                        <button class="repo" type="button">
+                            <a class="links" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
+                            Github Client Repo
+                            </a>
+                        </button>
+                        <button class="repo" type="button">
+                            <a class="links" href="https://github.com/AustinT33/feedme-server" target="_blank">
+                                Github Server Repo
+                            </a>
+                        </button><br/>
+                        <img class="feedmeimg" src="pictures/app-pictures/fm1.png" alt="Feedme-app"/>
                     </div>
                     <div class="project">
                         <h3>Spaced Repetition</h3>
-                        <p class="project-description">Full Stack project using LinkedLists to assist in learning a new language. This learning style that prompts incorrect guesses more often than correct.</p>
+                        <p class="project-description">Full Stack project using Linked Lists to assist in learning a new language. This learning style will prompt users with incorrect guesses more often than correct ones.</p>
                         <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | REST API | POSTGRESQL | CYPRESS</p>
-                        <a class="links"  href="https://mason-austin-learning.now.sh/" target="_blank">
-                            <button class="live" type="button">Live Site</button></a>
-                        <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
-                            <button class="repo" type="button">Github Repo</button>
-                        </a><br/>
-                        <img class="spacedimg" src="pictures/app-pictures/sr1.png"/>
+                        <button class="live" type="button">
+                            <a class="links"  href="https://mason-austin-learning.now.sh/" target="_blank">
+                                Live Site
+                            </a>
+                        </button>
+                        <button class="repo" type="button">
+                            <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
+                                Github Client Repo
+                            </a>
+                        </button>
+                        <button class="repo" type="button">
+                            <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-server" target="_blank">
+                            Github Server Repo
+                            </a>
+                        </button><br/>
+                        <img class="spacedimg" src="pictures/app-pictures/sr1.png" alt="spaced-rep-project"/>
                     </div>
                     <div class="project">
                         <h3>Clash of Clans Quiz App</h3>
                         <p class="project-description">Simple Quiz App with no CSS.</p>
                         <p class="project-tech">Tech Stack: HTML | JAVASCRIPT | JQUERY</p>
-                        <a class="links" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
-                            <button class="live" type="button">Live Site</button></a>
-                        <a class="links" href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
-                            <button class="repo" type="button">GitHub Repo</button>
-                        </a><br/>
-                        <img class="quizimg" src="pictures/app-pictures/quizpic.png">
+                        <button class="live" type="button">
+                            <a class="links" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
+                                Live Site
+                            </a>
+                        </button>
+                        <button class="repo" type="button">
+                            <a class="links" href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
+                                GitHub Repo
+                            </a>
+                        </button><br/>
+                        <img class="quizimg" src="pictures/app-pictures/quizpic.png" alt="old-quiz-app">
                     </div>
                 </div>
             </section>
         </main>
         <footer class="contact" role="content-info">
+            <h2 class="contact-title">Want to get in touch?</h2>
             <div class="closing">
-                <img class="bit-desk" src="pictures/bitmoji/bit-deskcat.png">
+                <img class="bit-desk" src="pictures/bitmoji/bit-deskcat.png" alt="bitmoji-with-cat">
             </div>
             <a href="https://github.com/austint33" target="_blank">
-                <img class="github" src="pictures/logo-icons/black-github.png">
+                <img class="github" src="pictures/logo-icons/black-github.png" alt="github-logo">
             </a>
             <a href="https://www.linkedin.com/in/austin-tumlinson/" target="_blank">
-                <img class="linkedin" src="pictures/logo-icons/black-linkedin.png">
+                <img class="linkedin" src="pictures/logo-icons/black-linkedin.png" alt="linkedin-logo">
             </a>
             <a href="mailto:austintumlinson@gmail.com" target="_blank">
-                <img class="mail" src="pictures/logo-icons/black-email.png">
+                <img class="mail" src="pictures/logo-icons/black-email.png" alt="email-icon">
             </a>
-            <div class="copyright"><span class="cright">&#169</span> Made by me 2020 </div>
+            <div class="copyright"><span class="cright">&#169;</span> Made by me 2020 </div>
         </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="index.js"></script>
