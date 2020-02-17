@@ -9,6 +9,10 @@ a, button, img {
     cursor: pointer;
 }
 
+.nav {
+    cursor: pointer;
+}
+
 a.links {
     margin-bottom: 5%;
     margin-top: -1.5%;
