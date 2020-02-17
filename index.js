@@ -4,14 +4,9 @@ function animateMenu(x) {
 
 $('.container').on('click', (e) => {
     e.preventDefault();
-    $('li').slideToggle(600);
+    $('.nav').slideToggle(600);
 })
 
-$(document).ready(function() {
-    if($(window).width() >= 541) {
-        $('li').show();
-    }
-});
 
 $("#about").click(function(x) {
     $('html, body').animate({
@@ -74,5 +69,43 @@ function smoothScroll(eID) {
         setTimeout("window.scrollTo(0, "+leapY+")", timer * speed);
         leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
     }
+}
+
+let modal = document.getElementById("myModal");
+let img = document.getElementById("feedme");
+let modalImg = document.getElementById("img1");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+let span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+
+let modal2 = document.getElementById("myModal2");
+let img2 = document.getElementById("spaced");
+let modalImg2 = document.getElementById("img2");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+}
+let span2 = document.getElementsByClassName("close2")[0];
+span2.onclick = function() { 
+  modal2.style.display = "none";
+}
+
+
+let modal3 = document.getElementById("myModal3");
+let img3 = document.getElementById("quiz");
+let modalImg3 = document.getElementById("img3");
+img3.onclick = function(){
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+}
+let span3 = document.getElementsByClassName("close3")[0];
+span3.onclick = function() { 
+  modal3.style.display = "none";
 }
 

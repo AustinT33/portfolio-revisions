@@ -1,0 +1,412 @@
+
+
+header {
+    text-align: center;
+    font-size: 22px;
+    margin: 75px auto;
+    position: relative;
+    margin-bottom: 35%;
+}
+
+.computers {
+    width: 40%;
+    bottom: 0;
+    position: relative;
+    flex-grow: 1;
+}
+
+.bottom-img {
+   text-align: center;
+   position: absolute;
+   margin: -20.5% 5%;
+}
+
+.about {
+    text-align: left;
+    font-size: 22px;
+    margin: 5px 0;
+    padding: 100px 300px;
+    color: white;
+    background-color: black;
+    height: 350px;
+}
+
+.project-section {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px 25px;
+    border: 0.5px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: -8%;
+    margin-bottom: -8%;
+    z-index: 1;
+    position: relative;
+}
+
+.project-list {
+    text-align: center;
+}
+
+.inner-section {
+    display: flex;
+}
+
+.project {
+    flex-direction: row;
+    width: 50%;
+    padding: 5px 15px;
+    border-left: 0.5px solid #dcdcdc;
+    border-right: 0.5px solid #dcdcdc;
+}
+
+.project-description {
+    padding: 30px 10px;
+    text-align: left;
+}
+
+.live, .repo {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sub-header {
+    font-size: 22px;
+}
+
+.bit-main {
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+.feedmeimg, .spacedimg, .quizimg {
+    width: 300px;
+    padding: 10px;
+    flex-shrink: 50px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.feedmeimg:hover, .spacedimg:hover, .quizimg:hover {
+    transform: scale(2.5);
+}
+
+.feedmeimg:hover {
+    margin-left: 50%;
+}
+.quizimg:hover {
+    margin-right: 60%;
+}
+
+.linkedin {
+    width: 36.5px;
+}
+
+.mail{
+    width: 38px;
+}
+
+.github {
+    width: 36px;
+}
+
+.github, .mail, .linkedin {
+    border-radius: 100%;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+.cright {
+    font-size: 18px;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #d3d3d3ee;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    height: 500px;
+    padding-top: 300px;
+    margin-top: 2%;
+}
+
+.contact-title {
+    margin-bottom: 10%;
+    margin-top: -5%;
+    font-size: 30px;
+}
+
+.bit-desk {
+    width: 200px;
+    margin-top: -7%;
+    margin-bottom: 7%;
+}
+
+@media screen and (max-width: 1170px) and (min-width: 931px) {
+    .project {
+        width: 30%;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+
+    .project {
+        text-align: center;
+        margin: 0 auto;
+        width: auto;
+        border: none;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .inner-section {
+        flex-direction: column;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 500px;
+        margin: 0 auto;
+        border: 0.5px solid #dcdcdc;
+    }
+
+    .project-description, .project-tech {
+        padding: 10px 50px;
+        font-size: 19px;
+    }
+
+    .repo, .live {
+        margin: 25px auto;
+        font-size: 20px;
+        padding: 7px;
+    }
+
+    .computers {
+        bottom: 0;
+    }
+
+    .about {
+        padding: 100px 200px;
+    }
+
+    .bit-desk {
+        margin-top: -15%;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .about {
+        padding: 100px 75px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+
+    .about {
+        padding: 80px 50px;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+
+    .about {
+        padding: 70px 25px;
+        height: 400px;
+    }
+
+    .project-tech {
+        text-align: left;
+    }
+
+    h1 {
+        margin-top: 100px;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 150px;
+    }
+
+    .bit-desk {
+        margin-top: -40%;
+        margin-bottom: 25%;
+    }
+
+    .bit-main {
+        width: 250px;
+    }
+
+    .project-section {
+        margin-top: -15%;
+    }
+
+    footer {
+        margin-top: -20%;
+    }
+
+
+}
+
+@media screen and (min-width: 280px) {
+
+    .about {
+        padding: 50px 20px;
+        font-size: 18px;
+    }
+
+    li {
+        margin-left: -57%;
+        margin-top: -10%;
+    }
+
+    ul {
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    
+    h1 {
+        margin-top: 40%;
+    }
+
+    .live, .repo {
+        font-size: 16px;
+        width: 125px;
+    }
+
+    .project {
+        margin-left: -10%;
+    }
+
+    .bit-desk {
+        margin-top: -20%;
+    }
+    .contact-title {
+        margin-top: -60%;
+        margin-bottom: 15%;
+    }
+
+    .contact{ 
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    li {
+        font-size: 36px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .sub-header {
+        font-size: 48px;
+    }
+
+    .bit-main {
+        width: 500px;
+    }
+
+    .computers {
+        width: 800px;
+        margin: 17% 115%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .about {
+        font-size: 46px;
+        height: 700px;
+        padding: 400px 400px;
+    }
+
+    .project-section {
+        z-index: 1;
+        height: 1500px;
+    }
+
+    .project-description, .project-tech {
+        font-size: 44px
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    .repo, .live {
+        font-size: 44px;
+        padding: 14px;
+        margin: 10px;
+    }
+
+    .feedmeimg, .spacedimg, .quizimg {
+        width: 700px;
+        margin-top: 10%;
+    }
+
+    .contact {
+        margin-top: 1%;
+        height: 800px;
+    }
+
+    .bit-desk {
+        margin-top: 3%;
+        width: 350px;
+    }
+
+    .github {
+        width: 75px;
+    }
+
+    .linkedin {
+        width: 78px;
+    }
+
+    .mail {
+       width: 82px;
+    }
+
+    .copyright, .cright {
+        font-size: 26px;
+    }
+
+}

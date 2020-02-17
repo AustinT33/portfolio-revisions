@@ -16,14 +16,14 @@
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
-                <ul>
-                    <li id="about">About</li>
-                    <li id="projects">Projects</li>
-                    <li id="contact">Contact</li>
+                <ul class="nav-ul">
+                    <li class="nav" id="about">About</li>
+                    <li class="nav" id="projects">Projects</li>
+                    <li class="nav" id="contact">Contact</li>
                 </ul>
             </nav>
             <header>
-                <h1 class="intro">Full-Stack Developer</h1>
+                <h1 class="intro">Full Stack Developer</h1>
                 <p class="sub-header">I love to see applications come to life.</p>      
                 <img class="bit-main" src="pictures/bitmoji/bit-main.png" alt="bitmoji">
             </header>
@@ -41,50 +41,87 @@
             <section class="project-section">
                 <h2 class="project-list">Projects</h2>
                 <div class="inner-section">
-                    <div class="project">  
+                    <div class="project" id="feedme-project">  
                         <h3>Feed Me</h3>
-                        <p class="project-description">Full Stack Project that allows you to input your zipcode and pick a random restaurant for you to eat at when you have trouble deciding.</p>
-                        <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | API | POSTGRESQL</p>
-                        <a class="links" href="https://feedme-randomizer.herokuapp.com/" target="_blank">
+                        <p class="project-description" id="feed-desc">Full Stack Project with integrated Yelp API that allows users to input their zip-code and have a random restaurant from their location returned to them. Perfect for when the choices are overwhelming and you can't decide where to eat!</p>
+                        <img class="feedmeimg" id="feedme" src="pictures/app-pictures/fm1.png" alt="Feedme-app"/>
+                        <div class="modal" id="myModal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img1" src="pictures/app-pictures/fm1.png" alt="Feedme-app"/>
+                        </div>
+                        <h3 class=project-tech>Tech Stack</h3>
+                        <ul class="tech-ul">
+                            <li class="tech">HTML |</li>
+                            <li class="tech">CSS |</li>
+                            <li class="tech">AJAX</li><br/>
+                            <li class="tech">REACT |</li>
+                            <li class="tech">NODE |</li>
+                            <li class="tech">JS</li><br/>
+                            <li class="tech">EXPRESS |</li>
+                            <li class="tech">API |</li>
+                            <li class="tech">POSTGRESQL</li>
+                        </ul>
+                        <a class="links" id="live"href="https://feedme-randomizer.herokuapp.com/" target="_blank">
                             Live Site
                         </a>
-                        <a class="links" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
+                        <a class="links" id="client" href="https://github.com/AustinT33/FeedMe-App" target="_blank">
                         Github Client Repo
                         </a>
-                        <a class="links" href="https://github.com/AustinT33/feedme-server" target="_blank">
+                        <a class="links" id="server" href="https://github.com/AustinT33/feedme-server" target="_blank">
                             Github Server Repo
                         </a>
-                        <br/>
-                        <img class="feedmeimg" src="pictures/app-pictures/fm1.png" alt="Feedme-app"/>
                     </div>
-                    <div class="project">
+                    <div class="project" id="spaced-project">
                         <h3>Spaced Repetition</h3>
                         <p class="project-description">Full Stack project using Linked Lists to assist in learning a new language. This learning style will prompt users with incorrect guesses more often than correct ones.</p>
-                        <p class="project-tech">Tech Stack: HTML | CSS | AJAX | REACT | JS | NODE | EXPRESS | REST API | POSTGRESQL | CYPRESS</p>
-                        <a class="links"  href="https://mason-austin-learning.now.sh/" target="_blank">
+                        <img class="spacedimg" id="spaced" src="pictures/app-pictures/sr1.png" alt="spaced-rep-project"/>
+                        <div class="modal" id="myModal2">
+                            <span class="close2">&times;</span>
+                            <img class="modal-content" id="img2"src="pictures/app-pictures/sr1.png" alt="spaced-rep-project"/>
+                        </div>
+                        <h3 class="project-tech">Tech Stack</h3>
+                        <ul class="tech-ul">
+                            <li class="tech">HTML |</li>
+                            <li class="tech">CSS |</li>
+                            <li class="tech">AJAX |</li>
+                            <li class="tech">REACT</li><br/>
+                            <li class="tech">JS |</li>
+                            <li class="tech">NODE |</li>
+                            <li class="tech">EXPRESS |</li>
+                            <li class="tech">REST API</li><br/>
+                            <li class="tech">POSTGRESQL |</li>
+                            <li class="tech">CYPRESS</li>
+                        </ul>
+                        <a class="links" id="live"  href="https://mason-austin-learning.now.sh/" target="_blank">
                             Live Site
                         </a>
-                        <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
+                        <a class="links" id="client" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-client" target="_blank">
                             Github Client Repo
                         </a>
-                        <a class="links" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-server" target="_blank">
+                        <a class="links" id="server" href="https://github.com/thinkful-ei-iguana/mason-austin-spaced-server" target="_blank">
                         Github Server Repo
                         </a>
-                        <br/>
-                        <img class="spacedimg" src="pictures/app-pictures/sr1.png" alt="spaced-rep-project"/>
                     </div>
                     <div class="project">
                         <h3>Clash of Clans Quiz App</h3>
-                        <p class="project-description">Simple Quiz App with no CSS.</p>
-                        <p class="project-tech">Tech Stack: HTML | JAVASCRIPT | JQUERY</p>
-                        <a class="links" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
+                        <p class="project-description">Simple Quiz App with no CSS. This app, renders a question and allows user to choose from a multiple choice list, and upon answering will render correct or incorrect and update the score.</p>
+                        <img class="quizimg" id="quiz" src="pictures/app-pictures/quizpic.png" alt="old-quiz-app">
+                        <div class="modal" id="myModal3">
+                            <span class="close3">&times;</span>
+                            <img class="modal-content" id="img3" src="pictures/app-pictures/quizpic.png" alt="old-quiz-app">
+                        </div>
+                        <h3 class="project-tech">Tech Stack</h3>
+                        <ul class="tech-ul">
+                            <li class="tech">HTML |</li>
+                            <li class="tech">JS |</li>
+                            <li class="tech">JQUERY</li>
+                        </ul>
+                        <a class="links" id="live" href="https://thinkful-ei-iguana.github.io/Krystle-Austin/" target="_blank">
                             Live Site
                         </a>
-                        <a class="links" href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
+                        <a class="links"id="client"  href="https://github.com/thinkful-ei-iguana/Krystle-Austin" target="_blank">
                             GitHub Repo
                         </a>
-                        <br/>
-                        <img class="quizimg" src="pictures/app-pictures/quizpic.png" alt="old-quiz-app">
                     </div>
                 </div>
             </section>
