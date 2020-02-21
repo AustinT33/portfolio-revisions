@@ -22,7 +22,7 @@ $("#projects").click(function() {
 
 $("#contact").click(function() {
     $('html, body').animate({
-        scrollTop: $(".contact").offset().top
+        scrollTop: $(".bit-desk").offset().top
     }, 2000);
 });
 
