@@ -90,7 +90,8 @@ a {
     z-index: 1;
     overflow: auto;
     background-color: black;
-    background-color: rgba(0,0,0,0.9)
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
 }
 
 .modal-content {
@@ -481,13 +482,28 @@ a {
         font-size: 28px;
     }
 
+    .project-description {
+        text-align: left;
+    }
+
     .inner-section {
         display: flex;
         flex-direction: row;
     }
 
     .feedmeimg {
-        width: 50%;
+        width: 90%;
+        margin-left: -5%;
+    }
+
+    #spaced {
+        width: 130%;
+        margin-left: -10%;
+    }
+
+    .quizimg {
+        width: 110%;
+        margin-left: -5%;
     }
 
     #spaced-project {
@@ -534,6 +550,10 @@ a {
         height: 70%;
         left: 17.5%;
         top: 15%;
+    }
+
+    #spaced {
+        margin-left: -15%;
     }
 }
 
@@ -599,6 +619,11 @@ a {
         left: 20%;
         top: 15%;
     }
+
+    #spaced {
+        margin-left: -15%;
+    }
+    
 }
 
 @media screen and (min-width: 1300px) {
