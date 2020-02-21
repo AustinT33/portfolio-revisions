@@ -396,6 +396,8 @@ a {
 
     .nav {
         display: contents;
+        display: block;
+        margin-left: 1.5rem;
     }
 
     .about {
