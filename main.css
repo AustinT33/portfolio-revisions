@@ -496,39 +496,37 @@ a {
 
     .project-list {
         font-size: 28px;
+        margin-left: -4%;
     }
 
     .project-description {
         text-align: left;
     }
 
+    .project {
+        padding: 0px 20px;
+    }
+
     .inner-section {
         display: flex;
         flex-direction: row;
+        margin-left: -5%;
     }
 
     .feedmeimg {
         width: 90%;
-        margin-left: -5%;
-    }
-
-    #spaced {
-        width: 130%;
-        margin-left: -10%;
     }
 
     .quizimg {
-        width: 110%;
-        margin-left: -5%;
+        width: 85%;
     }
 
-    #spaced-project {
-        margin-left: 10%;
-        margin-right: 10%;
+    .spacedimg {
+        width: 90%;
     }
 
-    #feedme-project {
-        margin-right: -5%;
+    .inner-section {
+        padding-left: 7%;
     }
 
     .tech-ul {
@@ -567,10 +565,6 @@ a {
         left: 17.5%;
         top: 15%;
     }
-
-    #spaced {
-        margin-left: -15%;
-    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -594,10 +588,6 @@ a {
 
     .project-list {
         margin-bottom: 10%;
-    }
-
-    #feedme-project {
-        margin-left: -2%;
     }
 
     .project-description {
@@ -636,10 +626,6 @@ a {
         height: 54%;
         left: 20%;
         top: 15%;
-    }
-
-    #spaced {
-        margin-left: -15%;
     }
 
     .about-text {
