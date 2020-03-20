@@ -109,3 +109,27 @@ span3.onclick = function() {
   modal3.style.display = "none";
 }
 
+let modal4 = document.getElementById("myModal4");
+let title = document.getElementById("thinkful");
+let modalImg4 = document.getElementById("img4");
+title.onclick = function(){
+  modal4.style.display = "block";
+  modalImg4.src = "pictures/certifications/thinkful-cert.png";
+}
+let span4 = document.getElementsByClassName("close4")[0];
+span4.onclick = function() { 
+  modal4.style.display = "none";
+}
+
+let modal5 = document.getElementById("myModal5");
+let title2 = document.getElementById("google-a");
+let modalImg5 = document.getElementById("img5");
+title2.onclick = function(){
+  modal5.style.display = "block";
+  modalImg5.src = "pictures/certifications/google-a-cert.png";
+}
+let span5 = document.getElementsByClassName("close5")[0];
+span5.onclick = function() { 
+  modal5.style.display = "none";
+}
+

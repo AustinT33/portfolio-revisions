@@ -5,6 +5,14 @@ html {
     margin: 10px auto;
 }
 
+.thinkful-cert, .google-a-cert {
+    cursor: pointer;
+}
+
+.thinkful-cert:hover, .google-a-cert:hover {
+    opacity: 0.7;
+}
+
 a, button, img {
     cursor: pointer;
 }
@@ -59,10 +67,10 @@ li {
 a {
     text-decoration: none;
     display: inline-block;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 5px 3px;
     font-size: 18px;
     border-radius: 10px;
@@ -92,6 +100,7 @@ a {
     background-color: black;
     background-color: rgba(0,0,0,0.9);
     cursor: pointer;
+    border: 3px solid black;
 }
 
 .modal-content {
@@ -107,7 +116,7 @@ a {
     to {transform:scale(1)}
 }
 
-.close,.close2,.close3 {
+.close,.close2,.close3,.close4,.close5 {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -117,7 +126,7 @@ a {
     transition: 0.1s;
 }
 
-.close:hover, .close:focus,.close2:hover, .close2:focus, .close3:hover, .close3:focus {
+.close:hover, .close:focus,.close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus  {
     color: rgb(138, 9, 9);
     text-decoration: none;
     cursor: pointer;
@@ -220,11 +229,23 @@ a {
         width: 75%;
     }
 
-    footer {
-        background-color: black;
+    .acheivements {
+        margin-top: 15%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        margin-bottom: -7%;
         color: white;
-        padding: 10px;
+        background-color: black;
+    }
 
+    footer {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        width: 97.5%;
+        margin-left: 0.5%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
     .bit-desk {
@@ -242,6 +263,8 @@ a {
 
     .mail {
        width: 43px;
+       background-color: white;
+       border-radius: 100%;
     }
 
     .copyright, .cright {
@@ -513,15 +536,15 @@ a {
     }
 
     .feedmeimg {
-        width: 90%;
+        width: 100%;
     }
 
     .quizimg {
-        width: 85%;
+        width: 90%;
     }
 
     .spacedimg {
-        width: 90%;
+        width: 100%;
     }
 
     .inner-section {
@@ -552,8 +575,17 @@ a {
 
     .modal {
         width: 70%;
-        height: 70%;
+        height: 45%;
         left: 15%;
+        top: 25%;
+    }
+
+    .thinkful-img {
+        width: 100%;
+    }
+
+    .google-cert-img {
+        width: 100%;
     }
 }
 
@@ -600,7 +632,7 @@ a {
 
     .contact-title {
         font-size: 30px;
-        margin-top: 30%;
+        margin-top: 10%;
     }
 
     .bit-desk {
