@@ -154,6 +154,10 @@ a {
         cursor: pointer;
       }
 
+      .intro {
+          margin-top: 50%;
+      }
+
       .project-list {
           margin-top: 15%;
       }
@@ -300,11 +304,19 @@ a {
         left: 5%;
         top: 10%;
     }
+
+    .acheivements {
+        padding-top: 20%;
+    }
+
+    .cert-container {
+        height: 150px;
+    }
 }
 
 @media screen and (min-width: 350px) {
-    h1 {
-        margin-top: 30%;
+    .intro {
+        margin-top: 35%;
     }
 
     .about {
@@ -343,6 +355,14 @@ a {
         height: 40%;
         left: 10%;
     }
+
+    .acheivements {
+        padding-top: 20%;
+    }
+
+    .cert-container {
+        height: 150px;
+    }
 }
 
 @media screen and (min-width: 475px) {
@@ -351,11 +371,19 @@ a {
         height: 45%;
         left: 10%;
     }
+
+    .intro {
+        margin-top: 25%;
+    }
 }
 
 @media screen and (min-width: 550px) {
     .bit-main {
         width: 50%;
+    }
+
+    .intro {
+        margin-top: 20%;
     }
 
     .tech-ul {
@@ -389,7 +417,7 @@ a {
     }
 
     .contact-title {
-        margin-top: 35%;
+        margin-top: 20%;
         margin-bottom: 15%;
     }
 
@@ -414,6 +442,14 @@ a {
         height: 55%;
         left: 10%;
     }
+
+    .contact-title {
+        margin-top: 15%;
+    }
+
+    .intro {
+        margin-top: 25%;
+    }
 }
 
 @media only screen and (min-width: 700px){
@@ -423,6 +459,11 @@ a {
         top: 30%;
         left: 10%;
     }
+
+    .contact-title {
+        margin-top: 15%;
+    }
+
   }
 
 @media screen and (min-width: 750px) {
@@ -500,6 +541,18 @@ a {
         height: 65%;
         left: 10%;
     }
+
+    .contact-title {
+        margin-top: 15%;
+    }
+
+    .acheivements {
+        padding-top: 18%;
+    }
+
+    .cert-container {
+        height: 150px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -507,6 +560,10 @@ a {
         width: 75%;
         height: 75%;
         left: 12.5%;
+    }
+
+    .contact-title {
+        margin-top: 15%;
     }
 }
 
@@ -571,6 +628,7 @@ a {
     .contact-title {
         margin-bottom: 10%;
         font-size: 24px;
+        margin-top: 15%;
     }
 
     .modal {
@@ -595,6 +653,15 @@ a {
         height: 70%;
         left: 17.5%;
         top: 15%;
+    }
+
+    .contact-title {
+        margin-top: 10%;
+        font-size: 26px;
+    }
+
+    .acheivements {
+        font-size: 20px;
     }
 }
 

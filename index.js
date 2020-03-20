@@ -20,6 +20,12 @@ $("#projects").click(function() {
     }, 2000);
 });
 
+$("#acheivements").click(function() {
+  $('html, body').animate({
+      scrollTop: $(".certifications").offset().top
+  }, 2000);
+});
+
 $("#contact").click(function() {
     $('html, body').animate({
         scrollTop: $(".bit-desk").offset().top
