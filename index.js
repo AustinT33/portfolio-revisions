@@ -140,7 +140,7 @@ span5.onclick = function() {
   modal5.style.display = "none";
 }
 
-let modal6 = document.getElementById("myModal5");
+let modal6 = document.getElementById("myModal6");
 let title3 = document.getElementById("google-t");
 let modalImg6 = document.getElementById("img6");
 title3.onclick = function(){
