@@ -128,9 +128,9 @@ span4.onclick = function() {
 }
 
 let modal5 = document.getElementById("myModal5");
-let title = document.getElementById("google-a");
+let title2 = document.getElementById("google-a");
 let modalImg5 = document.getElementById("img5");
-title.onclick = function(){
+title2.onclick = function(){
   console.log('clicked')
   modal5.style.display = "block";
   modalImg5.src = "pictures/certifications/google-a-cert.png";
@@ -141,9 +141,9 @@ span5.onclick = function() {
 }
 
 let modal6 = document.getElementById("myModal5");
-let title = document.getElementById("google-t");
+let title3 = document.getElementById("google-t");
 let modalImg6 = document.getElementById("img6");
-title.onclick = function(){
+title3.onclick = function(){
   console.log('clicked')
   modal6.style.display = "block";
   modalImg6.src = "pictures/certifications/gtm-cert.png";
