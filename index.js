@@ -131,7 +131,6 @@ let modal5 = document.getElementById("myModal5");
 let title2 = document.getElementById("google-a");
 let modalImg5 = document.getElementById("img5");
 title2.onclick = function(){
-  console.log('clicked')
   modal5.style.display = "block";
   modalImg5.src = "pictures/certifications/google-a-cert.png";
 }
@@ -144,7 +143,6 @@ let modal6 = document.getElementById("myModal6");
 let title3 = document.getElementById("google-t");
 let modalImg6 = document.getElementById("img6");
 title3.onclick = function(){
-  console.log('clicked')
   modal6.style.display = "block";
   modalImg6.src = "pictures/certifications/gtm-cert.png";
 }
