@@ -5,11 +5,11 @@ html {
     margin: 10px auto;
 }
 
-.thinkful-cert, .google-a-cert {
+.thinkful-cert, .google-a-cert, .google-tag-cert {
     cursor: pointer;
 }
 
-.thinkful-cert:hover, .google-a-cert:hover {
+.thinkful-cert:hover, .google-a-cert:hover, .google-tag-cert:hover {
     opacity: 0.7;
 }
 
@@ -116,7 +116,7 @@ a {
     to {transform:scale(1)}
 }
 
-.close,.close2,.close3,.close4,.close5 {
+.close,.close2,.close3,.close4,.close5, .close6 {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -126,7 +126,7 @@ a {
     transition: 0.1s;
 }
 
-.close:hover, .close:focus,.close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus  {
+.close:hover, .close:focus,.close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus, .close5:hover, .close5:focus, .close6:hover, .close6:focus  {
     color: rgb(138, 9, 9);
     text-decoration: none;
     cursor: pointer;

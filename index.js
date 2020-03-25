@@ -128,14 +128,26 @@ span4.onclick = function() {
 }
 
 let modal5 = document.getElementById("myModal5");
-let title2 = document.getElementById("google-a");
+let title = document.getElementById("google-a");
 let modalImg5 = document.getElementById("img5");
-title2.onclick = function(){
+title.onclick = function(){
   modal5.style.display = "block";
   modalImg5.src = "pictures/certifications/google-a-cert.png";
 }
 let span5 = document.getElementsByClassName("close5")[0];
 span5.onclick = function() { 
   modal5.style.display = "none";
+}
+
+let modal6 = document.getElementById("myModal5");
+let title = document.getElementById("google-t");
+let modalImg6 = document.getElementById("img6");
+title.onclick = function(){
+  modal6.style.display = "block";
+  modalImg6.src = "pictures/certifications/gtm-cert.png";
+}
+let span6 = document.getElementsByClassName("close6")[0];
+span6.onclick = function() { 
+  modal6.style.display = "none";
 }
 
